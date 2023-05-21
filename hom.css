@@ -121,20 +121,20 @@ body{
    
    @keyframes animate{
      0%,100%{
-       background-image: url("/home-images/Pepper.jpg");
+       background-image: url("/images/Pepper.jpg");
      }
      25%{
-       background-image: url("/home-images/image.png");
+       background-image: url("/images/image.png");
      }
      50%{
-       background-image: url("/home-images/mangoes.jpg");
+       background-image: url("/images/mangoes.jpg");
      }
      75%{
-       background-image: url("/home-images/fresh.jpg");
+       background-image: url("/images/fresh.jpg");
        
      }
      100%{
-       background-image: url("/home-images/bacground.jpg");
+       background-image: url("/images/bacground.jpg");
      }
     
    }
