@@ -121,23 +121,54 @@ body{
    
    @keyframes animate{
      0%,100%{
-       background-image: url("/images/Pepper.jpg");
+       background-image: url("images/Pepper.jpg");
      }
      25%{
-       background-image: url("/images/image.png");
+       background-image: url("images/image.png");
      }
      50%{
-       background-image: url("/images/mangoes.jpg");
+       background-image: url("images/mangoes.jpg");
      }
      75%{
-       background-image: url("/images/fresh.jpg");
+       background-image: url("images/fresh.jpg");
        
      }
      100%{
-       background-image: url("/images/bacground.jpg");
+       background-image: url("images/bacground.jpg");
      }
     
    }
+
+   /* ABOUT START */
+
+.about{
+  display: flex;
+  justify-content: space-between;
+
+}
+.basket-images img{
+ margin-left: 5%;
+ width: 90%;
+ /* margin-bottom: 5%; */
+}
+h1{
+  text-align: center;
+  color: darkgreen;
+ /* padding-bottom: 10%; */
+}
+.paragraph p{
+ padding-left: 5%;
+ margin-top: 15%;
+ /* font-size: 15px; */
+ margin-left: 30px;
+}
+.about-us{
+  margin-top: 55%;
+}
+
+
+/* end */
+
  
  
  
@@ -195,6 +226,39 @@ body{
      .details h3 {
        font-size: 0.5rem;
      }
+
+
+ /* about media start */
+ .about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 230%;
+}
+
+.about {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket-images {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.basket {
+  width: 100%;
+  max-width: 500px;
+  /* height: auto; */
+}
+/* end  */
+
+
+
+
    }  
    
  
